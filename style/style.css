@@ -37,7 +37,7 @@ ul {
 li {
   padding: 0 20px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 a {
@@ -48,6 +48,7 @@ a {
 img {
   border-radius: 30px;
 }
+
 p {
   padding-left: 60px;
   margin: 50px 0 0 0;
@@ -62,12 +63,13 @@ footer {
 }
 
 footer .email {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 .navigation-bar {
   padding-top: 30px;
+  text-align: end;
 }
 .grid {
   display: grid;
@@ -113,8 +115,19 @@ footer .email {
   border-radius: 30px;
   color: #060606;
   font-weight: 600;
+  font-size: 20px;
 }
 
 .information:hover {
   background-color: #61969b;
+}
+
+.projects-container {
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.projects {
+  border: 1px solid grey;
+  margin-bottom: 20px;
 }
