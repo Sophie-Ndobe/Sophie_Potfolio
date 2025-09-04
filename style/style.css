@@ -67,6 +67,10 @@ footer .email {
   font-weight: 600;
   margin-bottom: 10px;
 }
+
+.active {
+  color: #060606;
+}
 .navigation-bar {
   padding-top: 30px;
   text-align: end;
@@ -110,7 +114,7 @@ footer .email {
 
 .information {
   background-color: #bcdbc4;
-  padding: 55px;
+  padding: 30px;
   text-align: center;
   border-radius: 30px;
   color: #060606;
@@ -128,6 +132,8 @@ footer .email {
 }
 
 .projects {
-  border: 1px solid grey;
   margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
