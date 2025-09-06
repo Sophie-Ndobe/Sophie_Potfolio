@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <script
+      src="https://kit.fontawesome.com/2e42406aaf.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,15 +28,23 @@
     <title>Sophie's Projects</title>
   </head>
   <body>
-    <div class="container">
-      <div class="navigation-bar text-end">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#" class="active"> Projects</a></li>
-          <li><a href="contact.html">Contacts</a></li>
-          <li><a href="#">Resume</a></li>
-        </ul>
+    <div class="navigation-bar text-end">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html"> About</a></li>
+        <li><a href="#" class="active"> Projects</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </div>
+
+    <div class="container projects">
+      <div class="universal-h1">
+        <h1 class="text-center mt-2">
+          Take a look at what I've been working on!
+        </h1>
       </div>
+
       <div class="projects-grid">
         <div>
           <img src="./images/projects/World clock.png" class="img-fluid" />
@@ -92,27 +105,56 @@
         </div>
       </div>
 
+      <h4 class="text-center">
+        Some pencil art - passion projects <i class="fa-solid fa-pen"></i>
+      </h4>
+      <div class="pencil-sketches">
+        <div>
+          <img
+            src="./images/projects/Pencil sketches/elephant.jpg"
+            class="img-fluid"
+          />
+          <img
+            src="./images/projects/Pencil sketches/eye (1).png"
+            class="img-fluid mt-3"
+          />
+        </div>
+        <div>
+          <img
+            src="./images/projects/Pencil sketches/lion.jpg"
+            class="img-fluid"
+          />
+        </div>
+        <div>
+          <img
+            src="./images/projects/Pencil sketches/cheeter.jpg"
+            class="img-fluid"
+          />
+          <img
+            src="./images/projects/Pencil sketches/cottage.png"
+            class="img-fluid mt-3"
+          />
+        </div>
+      </div>
+
       <footer class="text-center">
         <div class="email">ndobes76@gmail</div>
 
         <div class="mt-3">
-          <img
-            src="./images/contact/github-logo.png"
-            class="img-fluid me-5"
-            alt="github icon"
-            width="40px"
-          />
-
-          <img
-            src="./images/contact/linkedin-mark.png"
-            class="img-fluid"
-            alt="linkedin icon"
-            width="40px"
-          />
+          <span class="font-awesome-icon me-4"
+            ><a href="https://github.com/Sophie-Ndobe" target="_blank"
+              ><i class="fa-brands fa-github"></i></a
+          ></span>
+          <span class="font-awesome-icon ms-4"
+            ><a
+              href="https://www.linkedin.com/in/sophie-nkateko-ndobe-59260b21a/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i></a
+          ></span>
         </div>
         <p class="mt-5">
-          This project was developed by <strong>Sophie Ndobe</strong>, released
-          as <strong>open source</strong>.
+          This project was developed by Sophie Ndobe, released as
+          <strong>open source</strong>.
         </p>
       </footer>
     </div>

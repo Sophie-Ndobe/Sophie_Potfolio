@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  background-color: #f0fbff;
 }
 h1 {
   font-size: 70px;
@@ -14,14 +15,14 @@ h2 {
   font-size: 24px;
   line-height: 1;
   margin-bottom: 0;
-  color: #61969b;
-
-  font-weight: 600;
+  color: #060606;
+  opacity: 0.7;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 36px;
-  color: #61969b;
+  color: #ea8b7f;
   font-weight: 700;
   line-height: 1;
   margin: 0;
@@ -43,6 +44,10 @@ li {
 .navigation-bar a {
   text-decoration: none;
   color: #61969b;
+}
+
+.navigation-bar a:hover {
+  color: #060606;
 }
 
 .home-page-grid img {
@@ -68,12 +73,28 @@ footer .email {
   margin-bottom: 30px;
 }
 
+footer .font-awesome-icon a {
+  font-size: 60px;
+  color: #ea8b7f;
+  font-weight: 900;
+}
+
+footer .font-awesome-icon a:hover {
+  color: #61969b;
+}
+
+strong {
+  color: #ea8b7f;
+  font-weight: 900;
+}
+
 .navigation-bar .active {
   color: #060606;
 }
 .navigation-bar {
-  padding-top: 30px;
+  padding: 20px 0;
   text-align: end;
+  background-color: #ea8b7f;
 }
 .home-page-grid {
   display: grid;
@@ -123,10 +144,20 @@ footer .email {
 }
 
 .information:hover {
-  background-color: #61969b;
+  background-color: #ea8b7f;
 }
 
 /*Projects Page*/
+
+h4 {
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.universal-h1 h1 {
+  font-size: 62px;
+  font-family: "Playfair", serif;
+}
 
 .projects-grid {
   display: grid;
@@ -148,7 +179,7 @@ footer .email {
 }
 
 .projects-grid .launch-button:hover {
-  background-color: #61969b;
+  background-color: #ea8b7f;
 }
 
 .projects-grid a {
@@ -162,10 +193,17 @@ footer .email {
   border-radius: 10px;
 }
 
+.pencil-sketches {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 40px;
+}
+
 /*Contact Page */
 
 .contact-details {
-  margin: 60px 0px;
+  margin: 30px 0px;
 }
 
 .contact-details a {
@@ -175,6 +213,39 @@ footer .email {
   font-weight: 600;
 }
 
-.contact-details .font-awesome-icon {
+.contact-details a:hover {
+  color: #ea8b7f;
+}
+
+.font-awesome-icon {
   font-size: 60px;
+  color: #ea8b7f;
+  font-weight: 900;
+}
+
+/*About Page*/
+.about-page-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+
+  margin-top: 50px;
+}
+
+.about-page-grid h1 {
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.about-page-grid img {
+  border-radius: 10px;
+}
+
+.about-page-grid p {
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.about-page-grid strong {
+  font-weight: 500;
 }
