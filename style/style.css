@@ -54,6 +54,7 @@ h3 {
 .navigation-bar a {
   text-decoration: none;
   color: #61969b;
+  transition: All 200ms ease-in-out;
 }
 
 .navigation-bar a:hover {
@@ -123,6 +124,7 @@ h3 {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 500;
+  transition: all 200ms ease-in-out;
 }
 
 .information-section a:hover {
@@ -145,6 +147,7 @@ footer .font-awesome-icon a {
   font-size: 60px;
   color: #ea8b7f;
   font-weight: 900;
+  transition: all 200ms ease-in-out;
 }
 
 footer .font-awesome-icon a:hover {
@@ -155,6 +158,7 @@ footer .project-github-link {
   text-decoration: none;
   color: #ea8b7f;
   font-weight: 600;
+  transition: all 200ms ease-in-out;
 }
 
 footer .project-github-link:hover {
@@ -203,6 +207,7 @@ h4 {
   color: #060606;
   font-weight: 600;
   text-decoration: none;
+  transition: all 200ms ease-in-out;
 }
 
 .projects-grid .launch-button:hover {
@@ -232,6 +237,7 @@ h4 {
   color: #060606;
   line-height: 1.5;
   font-weight: 600;
+  transition: all 200ms ease-in-out;
 }
 
 .contact-details a:hover {
@@ -271,6 +277,7 @@ h4 {
   text-decoration: none;
   font-weight: 700;
   color: #060606;
+  transition: all 200ms ease-in-out;
 }
 
 .about-page-grid .shecodes:hover {
@@ -289,6 +296,7 @@ h4 {
   color: #060606;
   font-weight: 600;
   text-decoration: none;
+  transition: all 200ms ease-in-out;
 }
 
 .about-projects-button:hover {
@@ -321,8 +329,14 @@ iframe {
     text-align: center;
   }
 
+  .navigation-bar ul {
+    display: flex;
+    justify-content: center;
+  }
+
   .navigation-bar li {
-    font-size: 16px;
+    font-size: clamp(12px, 3vw, 16px);
+    padding: 0 10px;
   }
   .home-page-grid .profile-picture {
     display: none;
